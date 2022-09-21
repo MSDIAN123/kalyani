@@ -33,23 +33,23 @@ async def _human_time_duration(seconds):
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"http://telegra.ph/file/de61130f75f47984f0530.jpg",
+        photo=f"https://telegra.ph//file/ef5d2dcb34703be7a23eb.jpg",
         caption=f"""**
 『It's a Music bot without lag and struck .
-  It's a official Music bot of @KanimangalamKovilakam 
+  It's a official Music bot of @AANDAVAR8064 
 Nb : Bot and Userbot are locked by owner ,
      who wish to add this bot to your group,
-     then , contact @kk_heaven_hater』
+     then , contact @AANDAVAR8064』
 **""",
 reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "『𝗖𝗛𝗔𝗡𝗡𝗘𝗟』", url=f"https://t.me/KK_LINKS"),
+                        "『𝗖𝗛𝗔𝗡𝗡𝗘𝗟』", url=f"https://t.me/couplegiff"),
                     InlineKeyboardButton(
-                        "『𝗜𝗡𝗦𝗧𝗔🎭𝗚𝗥𝗔𝗠』", url=f"https://www.instagram.com/kani_mangalamkovilakam/"),
+                        "『𝗜𝗡𝗦𝗧𝗔🎭𝗚𝗥𝗔𝗠』", url=f"https://www.instagram.com/insta_aandavar_official/"),
                     InlineKeyboardButton(
-                        "『𝗙𝗔𝗖𝗘🌎𝗕𝗢𝗢𝗞』", url=f"https://www.facebook.com/profile.php?id=100085628503716") 
+                        "『𝗙𝗔𝗖𝗘🌎𝗕𝗢𝗢𝗞』", url=f"https://www.facebook.com/smart.sathish.96592") 
                 ]
             ]
         ),
@@ -59,20 +59,20 @@ reply_markup=InlineKeyboardMarkup(
 @Client.on_message(commandpro(["/start", "/alive", "blackcat"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"http://telegra.ph/file/de61130f75f47984f0530.jpg",
-        caption=f"""**𝙾𝙵𝙵𝙸𝙲𝙸𝙰𝙻 𝐌𝐔𝐒𝐈𝐂 Bot of 𓄂𝐊𝐊࿐ཽ༵✰**,
+        photo=f"https://telegra.ph//file/ef5d2dcb34703be7a23eb.jpg",
+        caption=f"""**𝙾𝙵𝙵𝙸𝙲𝙸𝙰𝙻 𝐌𝐔𝐒𝐈𝐂 Bot of 𓄂AANDAVAR࿐ཽ༵✰**,
         it's A 💯% LAG AND STRUCK FREE MUSIC BOT , IT KEEP CLEAN YOUR CHAT WHEN IT WORK ON YOUR CHAT,3hrs Unlimited Playing without Lag,
         NB:- 24HRS ASSISTANCE OF bot
-             (for anytime help:- [ANIYATHIKUTTIEEDE_CHECHIKUTTI](https://t.me/ANIYATHIKUTTIEEDE_CHECHIKUTTI)""",
+             (for anytime help:- [AANDAVAR8064](https://t.me/AANDAVAR8064)""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "▲𝐅𝐀𝐌𝐈𝐋𝐘▼", url=f"https://t.me/KK_LINKS"),
+                        "▲𝐅𝐀𝐌𝐈𝐋𝐘▼", url=f"https://t.me/couplegiff"),
                     InlineKeyboardButton(
-                        "『𝐈𝐧𝐬𝐭𝐚🎭𝐆𝐫𝐚𝐦』", url=f"https://www.instagram.com/kani_mangalamkovilakam/"),
+                        "『𝐈𝐧𝐬𝐭𝐚🎭𝐆𝐫𝐚𝐦』", url=f"https://www.instagram.com/insta_aandavar_official/"),
                     InlineKeyboardButton(
-                        "『𝐅𝐀𝐂𝐄🌎𝐁𝐎𝐎𝐊』", url=f"https://www.facebook.com/profile.php?id=100085628503716")
+                        "『𝐅𝐀𝐂𝐄🌎𝐁𝐎𝐎𝐊』", url=f"https://www.facebook.com/smart.sathish.96592")
                 ]
             ]
         ),
